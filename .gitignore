@@ -9,8 +9,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Dados brutos
-data/raw/**/*.csv
-data/raw/**/*.zip
+data/raw/*.csv
+data/raw/*.zip
 
 # Arquivos temporários
 *.tmp
