@@ -1,4 +1,4 @@
-# Análise de Incidentes de Segurança com Python
+# Análise de incidentes de Segurança com Python
 
 Análise exploratória de registros públicos de incidentes de segurança da informação utilizando Python, Pandas, Matplotlib e Seaborn.
 
