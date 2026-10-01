@@ -136,6 +136,44 @@ Entre os incidentes classificados como Error, foram analisados:
 * Random error
 * Other
 
+## Visualizações
+
+### Distribuição dos incidentes por setor
+
+A distribuição dos registros mostra a quantidade de incidentes por setor na base analisada.
+
+![Distribuição dos incidentes por setor](reports/figures/distribuicao_setores.png)
+
+### Categorias de ação por setor
+
+O heatmap apresenta a proporção de registros associados a cada categoria de ação nos principais setores analisados.
+
+![Categorias de ação por setor](reports/figures/categorias_acao_por_setor.png)
+
+### Principais vetores de Hacking por setor
+
+O heatmap mostra a distribuição dos principais vetores conhecidos de Hacking entre os setores com maior quantidade de registros.
+
+![Principais vetores de Hacking por setor](reports/figures/vetores_hacking_por_setor.png)
+
+### Principais vetores de Malware por setor
+
+O heatmap apresenta a distribuição dos principais vetores conhecidos de Malware entre os setores analisados.
+
+![Principais vetores de Malware por setor](reports/figures/vetores_malware_por_setor.png)
+
+### Principais vetores de Social Engineering por setor
+
+O heatmap apresenta a distribuição dos principais vetores conhecidos de Social Engineering entre os setores analisados.
+
+![Principais vetores de Social Engineering por setor](reports/figures/vetores_social_por_setor.png)
+
+### Principais vetores de Error por setor
+
+O heatmap apresenta a distribuição dos principais vetores conhecidos de Error entre os setores analisados.
+
+![Principais vetores de Error por setor](reports/figures/vetores_error_por_setor.png)
+
 ## Principais observações
 
 * Hacking e Error estão entre as categorias de ação mais frequentes na base analisada.
