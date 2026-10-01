@@ -2,11 +2,25 @@
 
 Análise exploratória de registros públicos de incidentes de segurança da informação utilizando Python, Pandas, Matplotlib e Seaborn.
 
+**Status**: Concluído
+
+**Área**: Segurança da Informação / Análise de Dados
+
+## Tecnologias utilizadas
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Git
+* GitHub
+
 ## Objetivo
 
-Analisar padrões presentes em registros públicos de incidentes de segurança, utilizando dados estruturados segundo o framework VERIS.
+Investigar padrões em registros públicos de incidentes de segurança da informação, utilizando técnicas de análise exploratória de dados.
 
-A análise busca identificar diferenças na distribuição dos incidentes entre setores e observar quais categorias de ação e vetores aparecem com maior frequência nos registros analisados.
+Ademais, transformar uma base extensa de registros em informações visualmente interpretáveis, mantendo explícitas as limitações e características dos dados.
 
 ## Pergunta de análise
 
@@ -22,16 +36,6 @@ Fonte:
 
 * VCDB: https://github.com/vz-risk/VCDB
 * Verizon DBIR: https://www.verizon.com/business/resources/reports/dbir/
-
-## Tecnologias utilizadas
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-* Git
-* GitHub
 
 ## Estrutura do projeto
 
@@ -223,17 +227,19 @@ A associação observada entre um setor, uma categoria de ação ou um vetor nã
 
 ## Reprodução da análise
 
-Para reproduzir o projeto:
+Como executar o projeto:
 
-1. Clone o repositório.
-2. Crie um ambiente virtual Python.
+1. Clone o repositório no github.
+2. No terminal da sua máquina, crie um ambiente virtual Python.
 3. Instale as dependências.
-4. Obtenha o arquivo `vcdb.csv` a partir do VCDB.
+4. Obtenha o arquivo `vcdb.csv` disponibilizado pelo VERIS Community Database (VCDB).
 5. Coloque o arquivo em:
 
 ```text
 data/raw/vcdb.csv
 ```
+
+Os dados brutos não são incluídos no repositório.
 
 6. Abra o notebook:
 
@@ -243,13 +249,13 @@ notebooks/01_exploracao_inicial.ipynb
 
 7. Execute as células na ordem apresentada.
 
-## Objetivo do projeto
+## Competências demonstradas
 
-Este projeto foi desenvolvido como estudo prático de análise de dados aplicada à segurança da informação, com foco em:
+Este projeto aplica conceitos e ferramentas de análise de dados à área de segurança da informação, incluindo:
 
-* manipulação de dados com Pandas;
-* exploração de bases de dados reais;
-* criação de visualizações;
-* interpretação de padrões;
-* documentação de limitações;
-* organização de um projeto de análise no GitHub.
+* Manipulação e seleção de dados com Pandas;
+* Análise exploratória de uma base pública de incidentes;
+* Criação de visualizações com Matplotlib e Seaborn;
+* Identificação e interpretação de padrões;
+* Documentação das limitações dos dados;
+* Organização e versionamento de um projeto com Git e GitHub.
